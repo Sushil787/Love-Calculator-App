@@ -1,4 +1,7 @@
 dynamic checkL(String firstName, String secondName) {
+  if (firstName == "sushil") {
+    return "you are a programmer you are single";
+  }
   String percentage = "";
   int sum1 = sumCalc(firstName);
   int sum2 = sumCalc(secondName);
